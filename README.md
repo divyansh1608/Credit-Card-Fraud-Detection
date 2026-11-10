@@ -1,4 +1,4 @@
-Credit Card Fraud Detection & Alert System
+# Credit Card Fraud Detection & Alert System
 
 📌 What does this project do?
 
