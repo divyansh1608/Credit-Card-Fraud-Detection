@@ -1,18 +1,18 @@
 # Credit Card Fraud Detection & Alert System
 
-📌 What does this project do?
+#  What does this project do?
 
 Banks need to stop credit card fraud, but they don't want to waste human workers' time checking safe, normal purchases. This project looks at over 284,800 credit card transactions to find the exact time and place where the most fraud happens.
 
 The Main Recommendation: The data showed that fraud spikes between 1 AM and 4 AM for purchases over $500. Instead of humans checking these manually, I recommended setting up an automated SMS text message to the customer to confirm the charge. This simple fix can reduce the human workload by 35%.
 
-💾 Where did the data come from?
+# Where did the data come from?
 
 Source: A public dataset from Kaggle.
 
 Privacy: Because of strict banking laws, the bank hid customer names and card numbers. They turned that private information into random numbered columns (like V1, V2). The only real information left untouched was the Time of the purchase and the Amount spent.
 
-🛠️ How I built it
+# How I built it
 
 Step 1: Preparing the Data (Python)
 
@@ -35,7 +35,7 @@ The Dot Graph (Scatter Chart): I put every single transaction on a 24-hour clock
 <img width="1677" height="944" alt="dashboard" src="https://github.com/user-attachments/assets/30bee877-d4ea-4cf8-b02e-964256decdef" />
 
 
-📈 The Best Results & Insights
+# 📈 The Best Results & Insights
 
 The Danger Zone: Fraud doesn't happen randomly. It peaks late at night, specifically between 1 AM and 4 AM.
 
@@ -43,7 +43,7 @@ The Money: The biggest financial losses in that late-night window come from larg
 
 The Hotspots: The map clearly shows that fraud hits certain major cities much harder than others.
 
-🚀 My Final Recommendation
+# My Final Recommendation
 
 The company should not pay human workers to manually check every suspicious transaction. Instead, they should set up an automatic system.
 
@@ -51,7 +51,7 @@ If a purchase happens between 1 AM and 4 AM AND it costs more than $500, the sys
 
 This completely removes these heavy-hitting transactions from the human workers' desks, saving the company a massive amount of time and money.
 
-🧰 Tools I Used
+# Tools I Used
 
 Python (Pandas, NumPy) for cleaning the data and doing the math.
 
